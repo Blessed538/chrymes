@@ -1,0 +1,38 @@
+.sidebar {
+  width: 35%;
+  background-color: black;
+  color: white;
+}
+
+.footer {
+  background-color: black;
+  margin-top: 390px;
+  color: gray;
+  border: 1px solid #6a79dd;
+}
+
+.left {
+  margin-left: 50px;
+}
+
+.logo {
+  width: 146px;
+  color: white;
+  height: 37px;
+  left: 135px;
+  top: 32px;
+  margin-top: 30px;
+  /* background: url(proqura_logo_purple.png); */
+}
+
+@media (min-width: 901px) {
+  .d-lg-none {
+    display: none;
+  }
+}
+
+@media (min-width: 901px) {
+  .sidebar {
+    width: 35vw;
+  }
+}
